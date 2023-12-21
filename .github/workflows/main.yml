@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-python@v1
-    - run: pip install pre-commit-mirror-maker
+    - run: pip install git+https://github.com/rbubley/pre-commit-mirror-maker
     - run: git config --global user.name 'Github Actions'
     - run: git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
     - run: pre-commit-mirror . --language=node --package-name=prettier --types=text --entry='prettier --write --ignore-unknown' --id=prettier
