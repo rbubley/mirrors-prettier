@@ -1,6 +1,9 @@
 prettier mirror
 ===============
 
+This is a fork of the (now archived) https://github.com/pre-commit/mirrors-prettier with the only difference 
+being that it only references release versions of prettier, not e.g. alpha/beta versions.
+
 Mirror of prettier package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
