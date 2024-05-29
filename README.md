@@ -16,7 +16,7 @@ For prettier: see https://github.com/prettier/prettier
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: https://github.com/pre-commit/mirrors-prettier
+-   repo: https://github.com/rbubley/mirrors-prettier
     rev: ''  # Use the sha / tag you want to point at
     hooks:
     -   id: prettier
@@ -28,7 +28,7 @@ When using plugins with `prettier` you'll need to declare them under
 `additional_dependencies`. For example:
 
 ```yaml
--   repo: https://github.com/pre-commit/mirrors-prettier
+-   repo: https://github.com/rbubley/mirrors-prettier
     rev: ''  # Use the sha / tag you want to point at
     hooks:
     -   id: prettier
