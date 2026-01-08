@@ -1,8 +1,11 @@
 prettier mirror
 ===============
 
-This is a fork of the (now archived) https://github.com/pre-commit/mirrors-prettier with the only difference 
-being that it only references release versions of prettier, not e.g. alpha/beta versions.
+This is a fork of the (now archived) https://github.com/pre-commit/mirrors-prettier with the only differences 
+being that it is does not autoupdate when new versions of `prettier` are released 
+and only references release versions of prettier, not e.g. alpha/beta versions.
+It's purpose is to have a stable, reliable source to provide our linting hooks that is able to support
+the prettier-plugin-toml for toml support (the archived pre-commit repo does not suppor this).
 
 Mirror of prettier package for pre-commit.
 
