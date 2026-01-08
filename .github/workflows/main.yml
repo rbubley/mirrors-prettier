@@ -1,9 +1,10 @@
 name: main
+# Manual trigger only
+# !!! NOTE THAT rbubley's FORKED pre-commit-mirror-maker is used
+# !!! This filters out alpha and beta versions (only includes up to "latest")
+# !!! However, it is significantly behind the upstream pre-commit pre-commit-mirror-maker
+# !!! If manually triggerring be sure to check whether this still meets our needs
 on:
-  push:
-    branches: [main]
-  schedule:
-  - cron: '15 8 * * *'
   workflow_dispatch:
 
 jobs:
